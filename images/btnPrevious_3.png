@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+<title>Page not found &#8211; Metafrizzy</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="Metafrizzy &raquo; Feed" href="https://metafrizzy.cc/feed/">
+<link rel="alternate" type="application/rss+xml" title="Metafrizzy &raquo; Comments Feed" href="https://metafrizzy.cc/comments/feed/">
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/metafrizzy.cc\/ipfsmy_includes\/js\/wp-emoji-release.min.js?ver=5.9.3"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="../css/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="cp_timeline-cgb-style-css-css" href="../css/blocks.style.build.css" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('btnPrevious_3.png#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('btnPrevious_3.png#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('btnPrevious_3.png#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('btnPrevious_3.png#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('btnPrevious_3.png#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('btnPrevious_3.png#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('btnPrevious_3.png#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('btnPrevious_3.png#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="contact-form-7-css" href="../css/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="copy-the-code-css" href="../css/copy-the-code.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-default-style-css" href="../css/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-modules-css" href="../css/modules.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-dripicons-css" href="../css/dripicons.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-font_elegant-css" href="../css/style.min_1.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-font_awesome-css" href="../css/fontawesome-all.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-ion_icons-css" href="../css/ionicons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-linea_icons-css" href="../css/style_1.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-linear_icons-css" href="../css/style_2.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-simple_line_icons-css" href="../css/simple-line-icons.css" type="text/css" media="all">
+<link rel="stylesheet" id="mediaelement-css" href="../css/mediaelementplayer-legacy.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="../css/wp-mediaelement.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-style-dynamic-css" href="../css/style_dynamic.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-modules-responsive-css" href="../css/modules-responsive.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-style-dynamic-responsive-css" href="../css/style_dynamic_responsive.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-edge-google-fonts-css" href="../css/css_3.css" type="text/css" media="all">
+<link rel="stylesheet" id="playerx-core-dashboard-style-css" href="../css/core-dashboard.min.css" type="text/css" media="all">
+<script type="text/javascript" src="../js/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="../js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://metafrizzy.cc/wp-json/"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://metafrizzy.cc/xmlrpc.php?rsd">
+<script type="text/javascript">
+			//<![CDATA[
+			var show_msg = '';
+			if (show_msg !== '0') {
+				var options = {view_src: "View Source is disabled!", inspect_elem: "Inspect Element is disabled!", right_click: "Right click is disabled!", copy_cut_paste_content: "Cut/Copy/Paste is disabled!", image_drop: "Image Drag-n-Drop is disabled!" }
+			} else {
+				var options = '';
+			}
+
+         	function nocontextmenu(e) { return false; }
+         	document.oncontextmenu = nocontextmenu;
+         	document.ondragstart = function() { return false;}
+
+			document.onmousedown = function (event) {
+				event = (event || window.event);
+				if (event.keyCode === 123) {
+					if (show_msg !== '0') {show_toast('inspect_elem');}
+					return false;
+				}
+			}
+			document.onkeydown = function (event) {
+				event = (event || window.event);
+				//alert(event.keyCode);   return false;
+				if (event.keyCode === 123 ||
+						event.ctrlKey && event.shiftKey && event.keyCode === 73 ||
+						event.ctrlKey && event.shiftKey && event.keyCode === 75) {
+					if (show_msg !== '0') {show_toast('inspect_elem');}
+					return false;
+				}
+				if (event.ctrlKey && event.keyCode === 85) {
+					if (show_msg !== '0') {show_toast('view_src');}
+					return false;
+				}
+			}
+			function addMultiEventListener(element, eventNames, listener) {
+				var events = eventNames.split(' ');
+				for (var i = 0, iLen = events.length; i < iLen; i++) {
+					element.addEventListener(events[i], function (e) {
+						e.preventDefault();
+						if (show_msg !== '0') {
+							show_toast(listener);
+						}
+					});
+				}
+			}
+			addMultiEventListener(document, 'contextmenu', 'right_click');
+			addMultiEventListener(document, 'cut copy paste print', 'copy_cut_paste_content');
+			addMultiEventListener(document, 'drag drop', 'image_drop');
+			function show_toast(text) {
+				var x = document.getElementById("amm_drcfw_toast_msg");
+				x.innerHTML = eval('options.' + text);
+				x.className = "show";
+				setTimeout(function () {
+					x.className = x.className.replace("show", "")
+				}, 3000);
+			}
+		//]]>
+		</script>
+<style type="text/css">body * :not(input):not(textarea){user-select:none !important; -webkit-touch-callout: none !important;  -webkit-user-select: none !important; -moz-user-select:none !important; -khtml-user-select:none !important; -ms-user-select: none !important;}#amm_drcfw_toast_msg{visibility:hidden;min-width:250px;margin-left:-125px;background-color:#333;color:#fff;text-align:center;border-radius:2px;padding:16px;position:fixed;z-index:999;left:50%;bottom:30px;font-size:17px}#amm_drcfw_toast_msg.show{visibility:visible;-webkit-animation:fadein .5s,fadeout .5s 2.5s;animation:fadein .5s,fadeout .5s 2.5s}@-webkit-keyframes fadein{from{bottom:0;opacity:0}to{bottom:30px;opacity:1}}@keyframes fadein{from{bottom:0;opacity:0}to{bottom:30px;opacity:1}}@-webkit-keyframes fadeout{from{bottom:30px;opacity:1}to{bottom:0;opacity:0}}@keyframes fadeout{from{bottom:30px;opacity:1}to{bottom:0;opacity:0}}</style>
+<link rel="icon" href="cropped-Untitled-design-32x32.png" sizes="32x32">
+<link rel="icon" href="cropped-Untitled-design-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="cropped-Untitled-design-180x180.png">
+<meta name="msapplication-TileImage" content="https://metafrizzy.cc/ipfsmedia/2022/03/cropped-Untitled-design-270x270.png">
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";					
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="error404 playerx-core-2.0 metafrizzy-ver-2.0 edgtf-empty-google-api edgtf-wide-dropdown-menu-content-in-grid edgtf-dark-header edgtf-fixed-on-scroll edgtf-dropdown-animate-height edgtf-header-divided edgtf-menu-area-shadow-disable edgtf-menu-area-in-grid-shadow-disable edgtf-menu-area-border-disable edgtf-menu-area-in-grid-border-disable edgtf-logo-area-border-disable edgtf-header-vertical-shadow-disable edgtf-header-vertical-border-disable edgtf-default-mobile-header edgtf-sticky-up-mobile-header wpb-js-composer js-comp-ver-6.7.0 vc_responsive elementor-default elementor-kit-6" itemscope itemtype="http://schema.org/WebPage">
+<div class="edgtf-wrapper">
+<div class="edgtf-wrapper-inner">
+<header class="edgtf-page-header">
+<div class="edgtf-fixed-wrapper">
+<div class="edgtf-menu-area">
+<div class="edgtf-vertical-align-containers">
+<div class="edgtf-position-left"><div class="edgtf-divided-left-widget-area">
+<div class="edgtf-divided-left-widget-area-inner">
+</div>
+</div>
+<div class="edgtf-position-left-inner">
+<div class="edgtf-divided-left-inner-border-holder"></div>
+<div class="edgtf-divided-left-inner-top-widget-area">
+<div class="edgtf-divided-left-inner-top-widget-area-inner">
+</div>
+</div>
+<nav class="edgtf-main-menu edgtf-drop-down edgtf-divided-left-part edgtf-default-nav">
+<ul id="menu-left-side" class="clearfix"><li id="nav-menu-item-3345" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children  has_sub narrow"><a href="https://metafrizzy.cc/" class><span class="item_outer"><span class="item_text">HOME</span><i class="edgtf-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+<li id="nav-menu-item-3347" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="#nft" class><span class="item_outer"><span class="item_text">NFT COLLECTION</span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-3346" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="#token" class><span class="item_outer"><span class="item_text">TOKENOMICS</span></span></a></li>
+<li id="nav-menu-item-3587" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class><span class="item_outer"><span class="item_text">COMMUNITY</span><i class="edgtf-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+<li id="nav-menu-item-3588" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://twitter.com/FrizzyMeta" class><span class="item_outer"><span class="item_text">Twitter</span></span></a></li>
+<li id="nav-menu-item-3589" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://t.me/metafrizzy" class><span class="item_outer"><span class="item_text">Telegram</span></span></a></li>
+<li id="nav-menu-item-3606" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://discord.gg/PbbQVcCAQe" class><span class="item_outer"><span class="item_text">Discord</span></span></a></li>
+</ul></div></div>
+</li>
+</ul> </nav>
+</div>
+</div>
+<div class="edgtf-position-center"><div class="edgtf-position-center-inner">
+<div class="edgtf-logo-wrapper">
+<a itemprop="url" href="https://metafrizzy.cc/" style="height: 256px;">
+<img itemprop="image" class="edgtf-normal-logo" src="cropped-Orange-Minimalist-and-Elegant-Game-Developer-Logo-4.png" width="512" height="512" alt="logo">
+<img itemprop="image" class="edgtf-dark-logo" src="cropped-Orange-Minimalist-and-Elegant-Game-Developer-Logo-4.png" width="512" height="512" alt="dark logo"> <img itemprop="image" class="edgtf-light-logo" src="cropped-Orange-Minimalist-and-Elegant-Game-Developer-Logo-4.png" width="512" height="512" alt="light logo"> </a>
+</div>
+</div>
+</div>
+<div class="edgtf-position-right"><div class="edgtf-position-right-inner">
+<div class="edgtf-divided-right-inner-border-holder"></div>
+<div class="edgtf-divided-right-inner-top-widget-area">
+<div class="edgtf-divided-right-inner-top-widget-area-inner">
+</div>
+</div>
+<nav class="edgtf-main-menu edgtf-drop-down edgtf-divided-right-part edgtf-default-nav">
+<ul id="menu-right-menu" class="clearfix"><li id="nav-menu-item-3619" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://github.com/ContractWolf/smart-contract-audits/blob/main/ContractWolf_Audit_MetaFrizzy.pdf" class><span class="item_outer"><span class="item_text">AUDIT</span></span></a></li>
+<li id="nav-menu-item-3348" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://metafrizzy.cc/MTFR-whitepaper.pdf" class><span class="item_outer"><span class="item_text">WHITEPAPER</span></span></a></li>
+<li id="nav-menu-item-3350" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://www.pinksale.finance/#/launchpad/0xcfD0cbad07633611020a5Ff677af7E7C355fe066?chain=BSC" class><span class="item_outer"><span class="item_text">BUY $MTFR</span></span></a></li>
+</ul></nav>
+</div>
+<div class="edgtf-divided-right-widget-area">
+<div class="edgtf-divided-right-widget-area-inner">
+<div class="edgtf-position-right-inner-wrap">
+<div id="block-2" class="widget widget_block edgtf-header-divided-right-widget-area">
+<div class="wp-container-1 wp-block-buttons">
+<div class="wp-block-button is-style-fill" id="Coming-Soon"><a class="wp-block-button__link" rel="Coming Soon">Connect</a></div>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<header class="edgtf-mobile-header">
+<div class="edgtf-mobile-header-inner">
+<div class="edgtf-mobile-header-holder">
+<div class="edgtf-grid">
+<div class="edgtf-vertical-align-containers">
+<div class="edgtf-vertical-align-containers">
+<div class="edgtf-mobile-menu-opener edgtf-mobile-menu-opener-icon-pack">
+<a href="javascript:void(0)">
+<span class="edgtf-mobile-menu-icon">
+<span aria-hidden="true" class="edgtf-icon-font-elegant icon_menu "></span> </span>
+</a>
+</div>
+<div class="edgtf-position-center"><div class="edgtf-position-center-inner">
+<div class="edgtf-mobile-logo-wrapper">
+<a itemprop="url" href="https://metafrizzy.cc/" style="height: 42px">
+<img itemprop="image" src="mob.png" width="85" height="84" alt="Mobile Logo">
+</a>
+</div>
+</div>
+</div>
+<div class="edgtf-position-right"><div class="edgtf-position-right-inner">
+<div id="block-3" class="widget widget_block edgtf-right-from-mobile-logo">
+<div class="wp-container-2 wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link">Connect</a></div>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="edgtf-mobile-nav" role="navigation" aria-label="Mobile Menu">
+<div class="edgtf-grid">
+<ul id="menu-playerx-footer-menu" class><li id="mobile-menu-item-3610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="https://metafrizzy.cc/" class><span>Homepage</span></a></li>
+<li id="mobile-menu-item-3616" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home "><a href="https://metafrizzy.cc/#token" class><span>Tokenomics</span></a></li>
+<li id="mobile-menu-item-3609" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://metafrizzy.cc/nft-shop/" class><span>NFT COLLECTION</span></a></li>
+<li id="mobile-menu-item-3611" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" edgtf-mobile-no-link"><span>Community</span></a><span class="mobile_arrow"><i class="edgtf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+<li id="mobile-menu-item-3613" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://discord.gg/PbbQVcCAQe" class><span>Discord</span></a></li>
+<li id="mobile-menu-item-3614" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://twitter.com/FrizzyMeta" class><span>Twitter</span></a></li>
+<li id="mobile-menu-item-3615" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://t.me/metafrizzy" class><span>Telegram</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-3617" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://metafrizzy.cc/MTFR-whitepaper.pdf" class><span>Whitepaper</span></a></li>
+<li id="mobile-menu-item-3620" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://github.com/ContractWolf/smart-contract-audits/blob/main/ContractWolf_Audit_MetaFrizzy.pdf" class><span>Audit</span></a></li>
+<li id="mobile-menu-item-3618" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://www.pinksale.finance/#/launchpad/0xC243514E017Ad9A701c462677a95472f5436F143?chain=BSC" class><span>Buy $MTFR</span></a></li>
+</ul> </div>
+</nav>
+</div>
+</header>
+<a id="edgtf-back-to-top" href="#">
+<span class="edgtf-icon-stack">
+<i class="edgtf-icon-font-awesome fa fa-angle-up "></i> </span>
+</a>
+<div class="edgtf-content" style="margin-top: -90px">
+<div class="edgtf-content-inner"> <div class="edgtf-page-not-found">
+<h1 class="edgtf-404-title">
+404 </h1>
+<h3 class="edgtf-404-subtitle">
+Page not found </h3>
+<p class="edgtf-404-text">
+Oops! The page you are looking for does not exist. It might have been moved or deleted. </p>
+<a itemprop="url" href="https://metafrizzy.cc/" target="_self" class="edgtf-btn edgtf-btn-medium edgtf-btn-solid edgtf-btn-glow edgtf-btn-glow"> <span class="edgtf-btn-text">Back to home</span> </a> </div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+<div id="amm_drcfw_toast_msg"></div>
+<style>.wp-container-1 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;align-items: center;justify-content: flex-end;}.wp-container-1 > * { margin: 0; }</style>
+<style>.wp-container-2 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;align-items: center;justify-content: flex-end;}.wp-container-2 > * { margin: 0; }</style>
+<link rel="stylesheet" id="rs-plugin-settings-css" href="../css/rs6.css" type="text/css" media="all">
+<style id="rs-plugin-settings-inline-css" type="text/css">
+#rs-demo-id {}
+</style>
+<script type="text/javascript" src="../js/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="../js/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/metafrizzy.cc\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/index.js" id="contact-form-7-js"></script>
+<script type="text/javascript" id="copy-the-code-js-extra">
+/* <![CDATA[ */
+var copyTheCode = {"copy_content_as":"","previewMarkup":"<h2>Hello World<\/h2>","buttonMarkup":"<button class=\"copy-the-code-button\" title=\"\"><\/button>","buttonSvg":"<svg viewBox=\"-21 0 512 512\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"m186.667969 416c-49.984375 0-90.667969-40.683594-90.667969-90.667969v-218.664062h-37.332031c-32.363281 0-58.667969 26.300781-58.667969 58.664062v288c0 32.363281 26.304688 58.667969 58.667969 58.667969h266.664062c32.363281 0 58.667969-26.304688 58.667969-58.667969v-37.332031zm0 0\"><\/path><path d=\"m469.332031 58.667969c0-32.40625-26.261719-58.667969-58.664062-58.667969h-224c-32.40625 0-58.667969 26.261719-58.667969 58.667969v266.664062c0 32.40625 26.261719 58.667969 58.667969 58.667969h224c32.402343 0 58.664062-26.261719 58.664062-58.667969zm0 0\"><\/path><\/svg>","selectors":[{"selector":"svg","style":"svg-icon","button_text":"Copy","button_title":"Copy to Clipboard","button_copy_text":"Copied!","button_position":"inside"},{"selector":"pre","style":"text","button_text":"Copy","button_title":"Copy to Clipboard","button_copy_text":"Copied!","button_position":"inside"}],"selector":"pre","settings":{"selector":"pre","button-text":"Copy","button-title":"Copy to Clipboard","button-copy-text":"Copied!","button-position":"inside"},"string":{"title":"Copy to Clipboard","copy":"Copy","copied":"Copied!"},"image-url":"https:\/\/metafrizzy.cc\/ipfsapps\/copy-the-code\/\/assets\/images\/copy-1.svg"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/copy-the-code.js" id="copy-the-code-js"></script>
+<script type="text/javascript" src="../js/rbtools.min.js" defer async id="tp-tools-js"></script>
+<script type="text/javascript" src="../js/rs6.min.js" defer async id="revmin-js"></script>
+<script type="text/javascript" src="../js/core.min.js" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="../js/tabs.min.js" id="jquery-ui-tabs-js"></script>
+<script type="text/javascript" src="../js/accordion.min.js" id="jquery-ui-accordion-js"></script>
+<script type="text/javascript" id="mediaelement-core-js-before">
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type="text/javascript" src="../js/mediaelement-and-player.min.js" id="mediaelement-core-js"></script>
+<script type="text/javascript" src="../js/mediaelement-migrate.min.js" id="mediaelement-migrate-js"></script>
+<script type="text/javascript" id="mediaelement-js-extra">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/ipfsmy_includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/wp-mediaelement.min.js" id="wp-mediaelement-js"></script>
+<script type="text/javascript" src="../js/jquery.appear.js" id="appear-js"></script>
+<script type="text/javascript" src="../js/modernizr.min.js" id="modernizr-js"></script>
+<script type="text/javascript" src="../js/jquery.hoverIntent.min.js" id="hoverintent-js"></script>
+<script type="text/javascript" src="../js/jquery.plugin.js" id="jquery-plugin-js"></script>
+<script type="text/javascript" src="../js/owl.carousel.min.js" id="owl-carousel-js"></script>
+<script type="text/javascript" src="../js/jquery.waypoints.min.js" id="waypoints-js"></script>
+<script type="text/javascript" src="../js/fluidvids.min.js" id="fluidvids-js"></script>
+<script type="text/javascript" src="../js/perfect-scrollbar.jquery.min.js" id="perfect-scrollbar-js"></script>
+<script type="text/javascript" src="../js/ScrollToPlugin.min.js" id="scrolltoplugin-js"></script>
+<script type="text/javascript" src="../js/parallax.min.js" id="parallax-js"></script>
+<script type="text/javascript" src="../js/jquery.prettyPhoto.min.js" id="prettyphoto-js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.min.js" id="mousewheel-js"></script>
+<script type="text/javascript" src="../js/jquery.waitforimages.js" id="waitforimages-js"></script>
+<script type="text/javascript" src="../js/jquery.easing.1.3.js" id="jquery-easing-1-3-js"></script>
+<script type="text/javascript" src="../js/isotope.pkgd.min.js" id="isotope-js"></script>
+<script type="text/javascript" src="../js/packery-mode.pkgd.min.js" id="packery-js"></script>
+<script type="text/javascript" src="../js/jquery.geocomplete.min.js" id="geocomplete-js"></script>
+<script type="text/javascript" src="../js/jquery.countdown.min.js" id="countdown-js"></script>
+<script type="text/javascript" src="../js/counter.js" id="counter-js"></script>
+<script type="text/javascript" src="../js/absoluteCounter.min.js" id="absoluteCounter-js"></script>
+<script type="text/javascript" src="../js/typed.js" id="typed-js"></script>
+<script type="text/javascript" id="playerx-edge-modules-js-extra">
+/* <![CDATA[ */
+var edgtfGlobalVars = {"vars":{"edgtfAddForAdminBar":0,"edgtfElementAppearAmount":-100,"edgtfAjaxUrl":"https:\/\/metafrizzy.cc\/wp-admin\/admin-ajax.php","edgtfStickyHeaderHeight":0,"edgtfStickyHeaderTransparencyHeight":70,"edgtfTopBarHeight":0,"edgtfLogoAreaHeight":0,"edgtfMenuAreaHeight":90,"edgtfMobileHeaderHeight":70}};
+var edgtfPerPageVars = {"vars":{"edgtfMobileHeaderHeight":70,"edgtfStickyScrollAmount":0,"edgtfHeaderTransparencyHeight":90,"edgtfHeaderVerticalWidth":0}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/modules.min.js" id="playerx-edge-modules-js"></script>
+</body>
+</html>
