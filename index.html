@@ -593,8 +593,8 @@
 	</script>
 	<style type="text/css" data-type="vc_shortcodes-custom-css">
 		.vc_custom_1530273784141 {
-			padding-top: 201px !important;
-			padding-bottom: 209px !important;
+			padding-top: 71px !important;
+			/* padding-bottom: 209px !important; */
 		}
 
 		.vc_custom_1529590528167 {
@@ -804,6 +804,27 @@
 			grid-template-rows: auto auto;
 		}
 
+		.class-square {
+			background-color: #1c1e23;
+			clip-path: polygon(0% 20px,
+					/* top left */
+					20px 0%,
+					/* top left */
+					calc(100% - 0px) 0%,
+					/* top right */
+					100% 20px,
+					/* top right */
+					100% calc(100% - 20px),
+					/* bottom right */
+					calc(100% - 20px) 100%,
+					/* bottom right */
+					0px 100%,
+					/* bottom left */
+					0 calc(100% - 0px)
+					/* bottom left */
+				);
+		}
+
 		@media only screen and (max-width: 1024px) {
 
 			.marquees__block .partners__collection,
@@ -902,6 +923,17 @@
 				width: 9em;
 				height: 4em;
 			}
+		}
+		.mb-social-media-wrapper {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+		.social-media-link {
+			padding: 0 10px;
+		}
+		.mb-social-media-wrapper .social-media-link img {
+			height: 60px;
 		}
 	</style>
 </head>
@@ -1026,7 +1058,7 @@
 											class="widget widget_block edgtf-header-divided-right-widget-area">
 											<div class="wp-container-1 wp-block-buttons">
 												<div class="wp-block-button is-style-fill" id="Coming-Soon"><a
-														class="wp-block-button__link" rel="Coming Soon">Connect</a>
+														class="wp-block-button__link" rel="Coming Soon">Play Game VR</a>
 												</div>
 											</div>
 										</div>
@@ -1064,8 +1096,8 @@
 										<div class="edgtf-position-right-inner">
 											<div id="block-3" class="widget widget_block edgtf-right-from-mobile-logo">
 												<div class="wp-container-2 wp-block-buttons">
-													<div class="wp-block-button"><a
-															class="wp-block-button__link">Connect</a></div>
+													<div class="wp-block-button"><a class="wp-block-button__link">Play
+															Game VR</a></div>
 												</div>
 											</div>
 										</div>
@@ -1168,8 +1200,8 @@
 													<div class="wpb_revslider_element wpb_content_element">
 														<p class="rs-p-wp-fix"></p>
 														<video loop="true" autoplay="autoplay" style="width: 100%;"
-															muted>
-															<source src="/images/trial.mp4" type="video/mp4">
+															muted controls>
+															<source src="/images/landing-page.mp4" type="video/mp4">
 														</video>
 													</div>
 													<!-- <div
@@ -1287,7 +1319,7 @@
 										</div>
 									</div>
 									<div class="edgtf-row-grid-section-wrapper edgtf-parallax-row-holder edgtf-row-with-shadow"
-										data-parallax-bg-image="https://metafrizzy.cc/ipfsmedia/2018/06/h3-parallax-img-1.jpg"
+										data-parallax-bg-image="/images/bg1.jpeg" style="background-size: cover;"
 										data-parallax-bg-speed="1">
 										<div class="edgtf-row-grid-section">
 											<div class="vc_row wpb_row vc_row-fluid vc_custom_1530273784141">
@@ -1298,7 +1330,8 @@
 															<div class="edgtf-section-title-holder  edgtf-st-standard "
 																style="padding: 0 0px;text-align: left">
 																<div class="edgtf-st-inner">
-																	<h2 class="edgtf-st-title">
+																	<h2 class="edgtf-st-title"
+																		style="text-align: center;">
 																		Welcome to<br> T-Ape </h2>
 																	<p class="edgtf-st-text" style="margin-top: 18px">
 																		T-Ape is a virtual reality Mataverse game that
@@ -1380,10 +1413,14 @@
 														</div>
 													</div>
 												</div>
-												<div
-													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-0 vc_col-md-4 vc_col-sm-offset-0 vc_hidden-xs" style="margin-top: 50px;">
+											</div>
+											<div class="vc_row wpb_row vc_row-fluid vc_custom_1530273784141">
+												<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-0 vc_col-md-4 vc_col-sm-offset-0 vc_hidden-xs"
+													style="margin-top: 50px;">
 													<div class="vc_column-inner">
 														<div class="wpb_wrapper">
+															<img src="/images/private.jpeg" alt="private"
+																style="min-height: 194.98px;">
 															<div
 																class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_juicy_pink vc_separator-has-text">
 																<span class="vc_sep_holder vc_sep_holder_l"><span
@@ -1398,34 +1435,10 @@
 																data-day-label="Days" data-hour-label="Hours"
 																data-minute-label="Minutes" data-second-label="Seconds">
 															</div>
-															<div
-																class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_juicy_pink vc_separator-has-text">
-																<span class="vc_sep_holder vc_sep_holder_l"><span
-																		class="vc_sep_line"></span></span>
-																<h4>DISTRIBUTION &amp; SALE</h4><span
-																	class="vc_sep_holder vc_sep_holder_r"><span
-																		class="vc_sep_line"></span></span>
-															</div>
-															<div class="wpb_text_column wpb_content_element ">
-																<div class="wpb_wrapper">
-																	<ul>
-																		<li><strong>NO MIN &amp; MAX BUY</strong></li>
-																		<li><strong>SOFT CAP</strong>: 20 BNB</li>
-																		<li><strong>ACCEPTABLE CURRENCY</strong>: BNB
-																		</li>
-																		<li><strong>TOTAL SALE:</strong> 20,000,000
-																			$MTFR</li>
-																		<li><strong>PLATFORM</strong>: PINKSALE</li>
-																		<li><strong>SALE</strong> <strong>TYPE</strong>:
-																			PUBLIC</li>
-																	</ul>
-																</div>
-															</div>
+															<img src="/images/desc-private.jpeg" alt="">
 															<div class="edgtf-eh-item-content edgtf-eh-custom-1274"
 																style="text-align: center; margin-top: 20px;">
-																<a itemprop="url"
-																	href="/privatesale"
-																	target="_blank"
+																<a itemprop="url" href="/privatesale" target="_blank"
 																	class="edgtf-btn edgtf-btn-medium edgtf-btn-solid edgtf-btn-glow">
 																	<span class="edgtf-btn-text">BUY PRIVATESALE</span>
 																</a>
@@ -1433,10 +1446,12 @@
 														</div>
 													</div>
 												</div>
-												<div
-													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-0 vc_col-md-4 vc_col-sm-offset-0 vc_hidden-xs" style="margin-top: 50px;">
+												<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-0 vc_col-md-4 vc_col-sm-offset-0 vc_hidden-xs"
+													style="margin-top: 50px;">
 													<div class="vc_column-inner">
 														<div class="wpb_wrapper">
+															<img src="/images/presale.jpeg" alt="presale"
+																style="min-height: 194.98px;">
 															<div
 																class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_juicy_pink vc_separator-has-text">
 																<span class="vc_sep_holder vc_sep_holder_l"><span
@@ -1468,45 +1483,26 @@
 																			class="countdown-period">Seconds</span></span>
 																</span>
 															</div>
-															<div
-																class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_juicy_pink vc_separator-has-text">
-																<span class="vc_sep_holder vc_sep_holder_l"><span
-																		class="vc_sep_line"></span></span>
-																<h4>DISTRIBUTION &amp; SALE</h4><span
-																	class="vc_sep_holder vc_sep_holder_r"><span
-																		class="vc_sep_line"></span></span>
-															</div>
-															<div class="wpb_text_column wpb_content_element ">
-																<div class="wpb_wrapper">
-																	<ul>
-																		<li><strong>NO MIN &amp; MAX BUY</strong></li>
-																		<li><strong>SOFT CAP</strong>: 20 BNB</li>
-																		<li><strong>ACCEPTABLE CURRENCY</strong>: BNB
-																		</li>
-																		<li><strong>TOTAL SALE:</strong> 20,000,000
-																			$MTFR</li>
-																		<li><strong>PLATFORM</strong>: PINKSALE</li>
-																		<li><strong>SALE</strong> <strong>TYPE</strong>:
-																			PUBLIC</li>
-																	</ul>
-																</div>
-															</div>
+															<img src="/images/desc-presale.jpeg" alt="">
 															<div class="edgtf-eh-item-content edgtf-eh-custom-1274"
 																style="text-align: center; margin-top: 20px;">
-																<a itemprop="url"
-																	href="https://www.pinksale.finance/#/launchpad/0xC243514E017Ad9A701c462677a95472f5436F143?chain=BSC"
-																	target="_blank"
-																	class="edgtf-btn edgtf-btn-medium edgtf-btn-solid edgtf-btn-glow">
-																	<span class="edgtf-btn-text">BUY PRESALE</span>
-																</a>
+																<button itemprop="url"
+																	class="edgtf-btn edgtf-btn-medium edgtf-btn-solid edgtf-btn-glow"
+																	style="cursor:not-allowed; background-color: darkgray;">
+																	<span class="edgtf-btn-text"><i class="fa fa-lock"
+																			aria-hidden="true"></i> BUY
+																		PUBLICSALE</span>
+																</button>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div
-													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-0 vc_col-md-4 vc_col-sm-offset-3 vc_hidden-xs" style="margin-top: 50px;">
+												<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-0 vc_col-md-4 vc_col-sm-offset-3 vc_hidden-xs"
+													style="margin-top: 50px;">
 													<div class="vc_column-inner">
 														<div class="wpb_wrapper">
+															<img src="/images/public.jpeg" alt="publicsale"
+																style="min-height: 194.98px;">
 															<div
 																class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_juicy_pink vc_separator-has-text">
 																<span class="vc_sep_holder vc_sep_holder_l"><span
@@ -1538,37 +1534,34 @@
 																			class="countdown-period">Seconds</span></span>
 																</span>
 															</div>
-															<div
+															<!-- <div
 																class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_juicy_pink vc_separator-has-text">
 																<span class="vc_sep_holder vc_sep_holder_l"><span
 																		class="vc_sep_line"></span></span>
 																<h4>DISTRIBUTION &amp; SALE</h4><span
 																	class="vc_sep_holder vc_sep_holder_r"><span
 																		class="vc_sep_line"></span></span>
-															</div>
+															</div> -->
 															<div class="wpb_text_column wpb_content_element ">
 																<div class="wpb_wrapper">
 																	<ul>
-																		<li><strong>NO MIN &amp; MAX BUY</strong></li>
-																		<li><strong>SOFT CAP</strong>: 20 BNB</li>
-																		<li><strong>ACCEPTABLE CURRENCY</strong>: BNB
+																		<li><strong>Listing Public T-APE </strong></li>
+																		<li><strong>Exchange</strong>: Pancakeswap &
+																			Gate io</li>
+																		<li><strong>Date </strong>: 24 April 2022
 																		</li>
-																		<li><strong>TOTAL SALE:</strong> 20,000,000
-																			$MTFR</li>
-																		<li><strong>PLATFORM</strong>: PINKSALE</li>
-																		<li><strong>SALE</strong> <strong>TYPE</strong>:
-																			PUBLIC</li>
 																	</ul>
 																</div>
 															</div>
 															<div class="edgtf-eh-item-content edgtf-eh-custom-1274"
 																style="text-align: center; margin-top: 20px;">
-																<a itemprop="url"
-																	href="https://www.pinksale.finance/#/launchpad/0xC243514E017Ad9A701c462677a95472f5436F143?chain=BSC"
-																	target="_blank"
-																	class="edgtf-btn edgtf-btn-medium edgtf-btn-solid edgtf-btn-glow">
-																	<span class="edgtf-btn-text">BUY PUBLICSALE</span>
-																</a>
+																<button itemprop="url"
+																	class="edgtf-btn edgtf-btn-medium edgtf-btn-solid edgtf-btn-glow"
+																	style="cursor:not-allowed; background-color: darkgray;">
+																	<span class="edgtf-btn-text"><i class="fa fa-lock"
+																			aria-hidden="true"></i> BUY
+																		PUBLICSALE</span>
+																</button>
 															</div>
 														</div>
 													</div>
@@ -1708,27 +1701,34 @@
 																			</div>
 																			<div data-aos="fade-up"
 																				class="timeline-content clearfix">
-																				<h2 class="content-title">Q1 2022</h2>
-																				<div
-																					class="ctl_info event-description full">
-																					<div class="content-details">
-																						<ul>
-																							<li><strong>Idea assessment
-																									and project
-																									feasibility</strong>
-																							</li>
-																							<li><strong>Research,
-																									gathering resources
-																									and team
-																									building.</strong>
-																							</li>
-																							<li><strong>Project
-																									planning, analysis
-																									virtual reality and
-																									scope's
-																									layout</strong>
-																							</li>
-																						</ul>
+																				<div class="class-square">
+																					<h2 class="content-title">Q1 2022
+																					</h2>
+																					<div
+																						class="ctl_info event-description full">
+																						<div class="content-details">
+																							<ul>
+																								<li><strong>Idea
+																										assessment
+																										and project
+																										feasibility</strong>
+																								</li>
+																								<li><strong>Research,
+																										gathering
+																										resources
+																										and team
+																										building.</strong>
+																								</li>
+																								<li><strong>Project
+																										planning,
+																										analysis
+																										virtual reality
+																										and
+																										scope's
+																										layout</strong>
+																								</li>
+																							</ul>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
@@ -1744,26 +1744,33 @@
 																			</div>
 																			<div data-aos="fade-up"
 																				class="timeline-content clearfix">
-																				<h2 class="content-title">Q2 2022</h2>
-																				<div
-																					class="ctl_info event-description full">
-																					<div class="content-details">
-																						<ul>
-																							<li><strong>Game design
-																									document and game's
-																									architecture</strong>
-																							</li>
-																							<li><strong>3D models,
-																									assets and
-																									graphics</strong>
-																							</li>
-																							<li><strong>Begin game
-																									metaverse virtual
-																									reality development
-																									and early prototypes
-																								</strong>
-																							</li>
-																						</ul>
+																				<div class="class-square">
+																					<h2 class="content-title">Q2 2022
+																					</h2>
+																					<div
+																						class="ctl_info event-description full">
+																						<div class="content-details">
+																							<ul>
+																								<li><strong>Game design
+																										document and
+																										game's
+																										architecture</strong>
+																								</li>
+																								<li><strong>3D models,
+																										assets and
+																										graphics</strong>
+																								</li>
+																								<li><strong>Begin game
+																										metaverse
+																										virtual
+																										reality
+																										development
+																										and early
+																										prototypes
+																									</strong>
+																								</li>
+																							</ul>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
@@ -1779,25 +1786,31 @@
 																			</div>
 																			<div data-aos="fade-up"
 																				class="timeline-content clearfix">
-																				<h2 class="content-title">Q3 2022</h2>
-																				<div
-																					class="ctl_info event-description full">
-																					<div class="content-details">
-																						<ul>
-																							<li><strong>Website design &
-																									development</strong>
-																							</li>
-																							<li><strong>Whitepaper,
-																									pitch deck, early
-																									trailer
-																									video</strong>
-																							</li>
-																							<li><strong>Website launch
-																									and social media
-																									accounts
-																								</strong>
-																							</li>
-																						</ul>
+																				<div class="class-square">
+																					<h2 class="content-title">Q3 2022
+																					</h2>
+																					<div
+																						class="ctl_info event-description full">
+																						<div class="content-details">
+																							<ul>
+																								<li><strong>Website
+																										design &
+																										development</strong>
+																								</li>
+																								<li><strong>Whitepaper,
+																										pitch deck,
+																										early
+																										trailer
+																										video</strong>
+																								</li>
+																								<li><strong>Website
+																										launch
+																										and social media
+																										accounts
+																									</strong>
+																								</li>
+																							</ul>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
@@ -1813,26 +1826,34 @@
 																			</div>
 																			<div data-aos="fade-up"
 																				class="timeline-content clearfix">
-																				<h2 class="content-title">Q4 2022</h2>
-																				<div
-																					class="ctl_info event-description full">
-																					<div class="content-details">
-																						<ul>
-																							<li><strong>Smart contracts
-																									audit and community
-																									building</strong>
-																							</li>
-																							<li><strong>private & public
-																									rounds.
-																									Partnerships</strong>
-																							</li>
-																							<li><strong>Continuous game
-																									development &
-																									release of updates
-																									for community
-																								</strong>
-																							</li>
-																						</ul>
+																				<div class="class-square">
+																					<h2 class="content-title">Q4 2022
+																					</h2>
+																					<div
+																						class="ctl_info event-description full">
+																						<div class="content-details">
+																							<ul>
+																								<li><strong>Smart
+																										contracts
+																										audit and
+																										community
+																										building</strong>
+																								</li>
+																								<li><strong>private &
+																										public
+																										rounds.
+																										Partnerships</strong>
+																								</li>
+																								<li><strong>Continuous
+																										game
+																										development &
+																										release of
+																										updates
+																										for community
+																									</strong>
+																								</li>
+																							</ul>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
@@ -1848,22 +1869,28 @@
 																			</div>
 																			<div data-aos="fade-up"
 																				class="timeline-content clearfix">
-																				<h2 class="content-title">Q5 2022</h2>
-																				<div
-																					class="ctl_info event-description full">
-																					<div class="content-details">
-																						<ul>
-																							<li><strong>Alpha game
-																									release</strong>
-																							</li>
-																							<li><strong>Release of help
-																									& support articles
-																									for players</strong>
-																							</li>
-																							<li><strong>Staking
-																									rewards</strong>
-																							</li>
-																						</ul>
+																				<div class="class-square">
+																					<h2 class="content-title">Q5 2022
+																					</h2>
+																					<div
+																						class="ctl_info event-description full">
+																						<div class="content-details">
+																							<ul>
+																								<li><strong>Alpha game
+																										release</strong>
+																								</li>
+																								<li><strong>Release of
+																										help
+																										& support
+																										articles
+																										for
+																										players</strong>
+																								</li>
+																								<li><strong>Staking
+																										rewards</strong>
+																								</li>
+																							</ul>
+																						</div>
 																					</div>
 																				</div>
 																			</div>
@@ -2050,64 +2077,6 @@
 											</div>
 										</div>
 									</div>
-									<div class="edgtf-row-grid-section-wrapper " style="background-color:#100f12">
-										<div class="edgtf-row-grid-section">
-											<div class="vc_row wpb_row vc_row-fluid vc_custom_1528881816813">
-												<div
-													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
-													<div class="vc_column-inner">
-														<div class="wpb_wrapper"></div>
-													</div>
-												</div>
-												<div
-													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
-													<div class="vc_column-inner">
-														<div class="wpb_wrapper">
-															<div class="edgtf-pie-chart-holder ">
-																<div class="edgtf-pc-percentage" data-percent="2%"
-																	data-bar-color="#ffffff" data-track-color="#ffffff">
-																	<span class="edgtf-pc-percent"
-																		style="color: #ffffff">2%</span>
-																</div>
-																<div class="edgtf-pc-text-holder">
-																	<h5 class="edgtf-pc-title" style="color: #ffffff">
-																		BUY TAX</h5>
-																</div>
-															</div>
-															<div class="vc_empty_space" style="height: 63px"><span
-																	class="vc_empty_space_inner"></span></div>
-														</div>
-													</div>
-												</div>
-												<div
-													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
-													<div class="vc_column-inner">
-														<div class="wpb_wrapper">
-															<div class="edgtf-pie-chart-holder ">
-																<div class="edgtf-pc-percentage" data-percent="11%"
-																	data-bar-color="#ffffff" data-track-color="#ffffff">
-																	<span class="edgtf-pc-percent"
-																		style="color: #ffffff">11%</span>
-																</div>
-																<div class="edgtf-pc-text-holder">
-																	<h5 class="edgtf-pc-title" style="color: #ffffff">
-																		SELL TAX</h5>
-																</div>
-															</div>
-															<div class="vc_empty_space" style="height: 63px"><span
-																	class="vc_empty_space_inner"></span></div>
-														</div>
-													</div>
-												</div>
-												<div
-													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
-													<div class="vc_column-inner">
-														<div class="wpb_wrapper"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
 									<div id="nft" class="vc_row wpb_row vc_row-fluid">
 										<div class="wpb_column vc_column_container vc_col-sm-12">
 											<div class="vc_column-inner">
@@ -2126,14 +2095,6 @@
 											<div class="marquees__block marquees__reversed">
 												<div class="partners__collection w-dyn-list">
 													<div role="list" class="parnters__list w-dyn-items">
-														<div role="listitem" class="partner__item w-dyn-item">
-															<div class="partner__clip">
-																<div style="background-image:url(&quot;https://assets-global.website-files.com/61b789d73f398a30c54422a8/6242dd775fdea7679faf5530_seedify.acaf00b-removebg-preview%20(1).png&quot;)"
-																	class="partner__inner"><a rel="noopener" href="#"
-																		class="partner_link w-inline-block w-condition-invisible"></a>
-																</div>
-															</div>
-														</div>
 														<div role="listitem" class="partner__item w-dyn-item">
 															<div class="partner__clip">
 																<div style="background-image:url(&quot;https://assets-global.website-files.com/61b789d73f398a30c54422a8/6242dc92e1996c2fa7c190e0_1_mqyYtVrOS-FyRgIRPN2p7Q-removebg-preview.png&quot;)"
@@ -2239,13 +2200,6 @@
 													<div role="list" class="parnters__list is--2 w-dyn-items">
 														<div role="listitem" class="partner__item w-dyn-item">
 															<div class="partner__clip">
-																<div style="background-image:url(&quot;https://assets-global.website-files.com/61b789d73f398a30c54422a8/6242dd775fdea7679faf5530_seedify.acaf00b-removebg-preview%20(1).png&quot;)"
-																	class="partner__inner"></div>
-															</div><a rel="noopener" href="#"
-																class="partner_link w-inline-block w-condition-invisible"></a>
-														</div>
-														<div role="listitem" class="partner__item w-dyn-item">
-															<div class="partner__clip">
 																<div style="background-image:url(&quot;https://assets-global.website-files.com/61b789d73f398a30c54422a8/6242dc92e1996c2fa7c190e0_1_mqyYtVrOS-FyRgIRPN2p7Q-removebg-preview.png&quot;)"
 																	class="partner__inner"></div>
 															</div><a rel="noopener" href="#"
@@ -2333,6 +2287,185 @@
 											</div>
 										</div>
 									</div>
+									<div id="team" class="vc_row wpb_row vc_row-fluid">
+										<div class="wpb_column vc_column_container vc_col-sm-12">
+											<div class="vc_column-inner">
+												<div class="wpb_wrapper">
+													<div class="wpb_text_column wpb_content_element ">
+														<div class="wpb_wrapper">
+															<h2 style="text-align: center;">Team</h2>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="edgtf-row-grid-section-wrapper " style="background-color:#100f12">
+										<div class="edgtf-row-grid-section">
+											<div class="vc_row wpb_row vc_row-fluid vc_custom_1528881816813">
+												<div
+													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
+													<div class="vc_column-inner">
+														<div class="wpb_wrapper">
+															<div class="edgtf-pie-chart-holder ">
+																<div class="edgtf-pc-percentage">
+																	<img src="/images/img1.jpeg" alt=""
+																		style="border-radius: 50%;">
+																</div>
+																<div class="edgtf-pc-text-holder">
+																	<h5 class="edgtf-pc-title" style="color: #ffffff">
+																	</h5>
+																	<h6>CEO & Co-founder</h6>
+																</div>
+															</div>
+															<div class="vc_empty_space" style="height: 63px"><span
+																	class="vc_empty_space_inner"></span></div>
+														</div>
+													</div>
+												</div>
+												<div
+													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
+													<div class="vc_column-inner">
+														<div class="wpb_wrapper">
+															<div class="edgtf-pie-chart-holder ">
+																<div class="edgtf-pc-percentage">
+																	<img src="/images/img2.jpeg" alt=""
+																		style="border-radius: 50%;">
+																</div>
+																<div class="edgtf-pc-text-holder">
+																	<h5 class="edgtf-pc-title" style="color: #ffffff">
+																		Albert_T</h5>
+																	<h6>Game developer</h6>
+																</div>
+															</div>
+															<div class="vc_empty_space" style="height: 63px"><span
+																	class="vc_empty_space_inner"></span></div>
+														</div>
+													</div>
+												</div>
+												<div
+													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
+													<div class="vc_column-inner">
+														<div class="wpb_wrapper">
+															<div class="edgtf-pie-chart-holder ">
+																<div class="edgtf-pc-percentage">
+																	<img src="/images/img3.jpeg" alt=""
+																		style="border-radius: 50%;">
+																</div>
+																<div class="edgtf-pc-text-holder">
+																	<h5 class="edgtf-pc-title" style="color: #ffffff">
+																		Austin willam</h5>
+																	<h6>CTO & Co-founder</h6>
+																</div>
+															</div>
+															<div class="vc_empty_space" style="height: 63px"><span
+																	class="vc_empty_space_inner"></span></div>
+														</div>
+													</div>
+												</div>
+												<div
+													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
+													<div class="vc_column-inner">
+														<div class="wpb_wrapper">
+															<div class="edgtf-pie-chart-holder ">
+																<div class="edgtf-pc-percentage">
+																	<img src="/images/img4.jpeg" alt=""
+																		style="border-radius: 50%;">
+																</div>
+																<div class="edgtf-pc-text-holder">
+																	<h5 class="edgtf-pc-title" style="color: #ffffff">
+																		Edricoden</h5>
+																	<h6>Games & Blockchain enthusiast</h6>
+																</div>
+															</div>
+															<div class="vc_empty_space" style="height: 63px"><span
+																	class="vc_empty_space_inner"></span></div>
+														</div>
+													</div>
+												</div>
+												<div
+													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
+													<div class="vc_column-inner">
+														<div class="wpb_wrapper">
+															<div class="edgtf-pie-chart-holder ">
+																<div class="edgtf-pc-percentage">
+																	<img src="/images/img5.jpeg" alt=""
+																		style="border-radius: 50%;">
+																</div>
+																<div class="edgtf-pc-text-holder">
+																	<h5 class="edgtf-pc-title" style="color: #ffffff">
+																		Aleksandercarilas</h5>
+																	<h6>Full stack & Blockchain developer</h6>
+																</div>
+															</div>
+															<div class="vc_empty_space" style="height: 63px"><span
+																	class="vc_empty_space_inner"></span></div>
+														</div>
+													</div>
+												</div>
+												<div
+													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
+													<div class="vc_column-inner">
+														<div class="wpb_wrapper">
+															<div class="edgtf-pie-chart-holder ">
+																<div class="edgtf-pc-percentage">
+																	<img src="/images/img6.jpeg" alt=""
+																		style="border-radius: 50%;">
+																</div>
+																<div class="edgtf-pc-text-holder">
+																	<h5 class="edgtf-pc-title" style="color: #ffffff">
+																		Castella leony</h5>
+																	<h6>3D Artist</h6>
+																</div>
+															</div>
+															<div class="vc_empty_space" style="height: 63px"><span
+																	class="vc_empty_space_inner"></span></div>
+														</div>
+													</div>
+												</div>
+												<div
+													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
+													<div class="vc_column-inner">
+														<div class="wpb_wrapper">
+															<div class="edgtf-pie-chart-holder ">
+																<div class="edgtf-pc-percentage">
+																	<img src="/images/img7.jpeg" alt=""
+																		style="border-radius: 50%;">
+																</div>
+																<div class="edgtf-pc-text-holder">
+																	<h5 class="edgtf-pc-title" style="color: #ffffff">
+																		Isaaclewiss</h5>
+																	<h6>Graphics & UI Designer</h6>
+																</div>
+															</div>
+															<div class="vc_empty_space" style="height: 63px"><span
+																	class="vc_empty_space_inner"></span></div>
+														</div>
+													</div>
+												</div>
+												<div
+													class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
+													<div class="vc_column-inner">
+														<div class="wpb_wrapper">
+															<div class="edgtf-pie-chart-holder ">
+																<div class="edgtf-pc-percentage">
+																	<img src="/images/img8.jpeg" alt=""
+																		style="border-radius: 50%;">
+																</div>
+																<div class="edgtf-pc-text-holder">
+																	<h5 class="edgtf-pc-title" style="color: #ffffff">
+																		Chinh Cuong</h5>
+																	<h6>Marketing Lead</h6>
+																</div>
+															</div>
+															<div class="vc_empty_space" style="height: 63px"><span
+																	class="vc_empty_space_inner"></span></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
 									<div class="vc_row wpb_row vc_row-fluid vc_custom_1529567793848 vc_row-has-fill edgtf-row-with-shadow edgtf-content-aligment-left"
 										style="background-image: url(/images/background1.jpg)">
 										<div
@@ -2401,148 +2534,29 @@
 											</div>
 										</div>
 									</div>
-									<div class="edgtf-row-grid-section-wrapper ">
+									<div class="edgtf-row-grid-section-wrapper " style="margin-top: 20px;">
 										<div class="edgtf-row-grid-section">
 											<div class="vc_row wpb_row vc_row-fluid vc_custom_1647525841364">
-												<div class="wpb_column vc_column_container vc_col-sm-12">
-													<div class="vc_column-inner">
-														<div class="wpb_wrapper">
-															<div class="edgtf-elements-holder   edgtf-two-columns  edgtf-responsive-mode-1024 "
-																style="background-color: rgba(15,15,15,0.8)">
-																<div class="edgtf-eh-item    "
-																	data-item-class="edgtf-eh-custom-5787"
-																	data-1367-1600="0 21px 2px 0"
-																	data-1025-1366="0 21px 2px 0"
-																	data-769-1024="65px 0 0 0"
-																	data-681-768="65px 40px 0 40px"
-																	data-680="65px 20px 0 20px">
-																	<div class="edgtf-eh-item-inner">
-																		<div class="edgtf-eh-item-content edgtf-eh-custom-5787"
-																			style="padding: 0 21px 2px 0">
-																			<div class="edgtf-section-title-holder  edgtf-st-standard "
-																				style="text-align: left">
-																				<div class="edgtf-st-inner">
-																					<h4 class="edgtf-st-title">
-																						WANNA TEST OUR<br> GAMES BEFORE
-																						ANYONE ELSE? </h4>
-																					<div class="edgtf-st-separator"
-																						style="margin-top: 3px">
-																						<svg version="1.1"
-																							xmlns="http://www.w3.org/2000/svg"
-																							xmlns:xlink="http://www.w3.org/1999/xlink"
-																							x="0px" y="0px"
-																							width="124.985px"
-																							height="3.411px"
-																							viewBox="0 0 124.985 3.411"
-																							enable-background="new 0 0 124.985 3.411"
-																							xml:space="preserve">
-																							<polygon fill="#FFFFFF"
-																								points="0,0 124.985,0 124.985,1.121 96.484,1.121 86.944,3.411 38.67,3.411 29.162,1.121 0,1.121 " />
-																						</svg> </div>
-																					<p class="edgtf-st-text"
-																						style="margin-top: 26px">
-																						If you want to test our games
-																						before anyone else, then please
-																						submit the information here.
-																					</p>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<div class="edgtf-eh-item    "
-																	data-item-class="edgtf-eh-custom-8231"
-																	data-1367-1600="70px 40px 45px 0"
-																	data-1025-1366="70px 40px 45px 0"
-																	data-769-1024="65px 40px 45px 40px"
-																	data-681-768="65px 40px 45px 40px"
-																	data-680="65px 20px 45px 20px">
-																	<div class="edgtf-eh-item-inner">
-																		<div class="edgtf-eh-item-content edgtf-eh-custom-8231"
-																			style="padding: 70px 40px 45px 0">
-																			<div role="form" class="wpcf7"
-																				id="wpcf7-f347-p668-o1" lang="en-US"
-																				dir="ltr">
-																				<div class="screen-reader-response">
-																					<p role="status" aria-live="polite"
-																						aria-atomic="true"></p>
-																					<ul></ul>
-																				</div>
-																				<form action="/#wpcf7-f347-p668-o1"
-																					method="post"
-																					class="wpcf7-form init"
-																					novalidate="novalidate"
-																					data-status="init">
-																					<div style="display: none;">
-																						<input type="hidden"
-																							name="_wpcf7" value="347">
-																						<input type="hidden"
-																							name="_wpcf7_version"
-																							value="5.5.6">
-																						<input type="hidden"
-																							name="_wpcf7_locale"
-																							value="en_US">
-																						<input type="hidden"
-																							name="_wpcf7_unit_tag"
-																							value="wpcf7-f347-p668-o1">
-																						<input type="hidden"
-																							name="_wpcf7_container_post"
-																							value="668">
-																						<input type="hidden"
-																							name="_wpcf7_posted_data_hash"
-																							value>
-																					</div>
-																					<div
-																						class="edgtf-custom-contact-form">
-																						<div class="edgtf-grid-row">
-																							<div
-																								class="edgtf-grid-col-12">
-																								<span
-																									class="wpcf7-form-control-wrap your-name"><input
-																										type="text"
-																										name="your-name"
-																										value size="40"
-																										class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-																										aria-required="true"
-																										aria-invalid="false"
-																										placeholder="Your Name"></span>
-																							</div>
-																							<div
-																								class="edgtf-grid-col-12">
-																								<span
-																									class="wpcf7-form-control-wrap your-email"><input
-																										type="email"
-																										name="your-email"
-																										value size="40"
-																										class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-																										aria-required="true"
-																										aria-invalid="false"
-																										placeholder="Email Address"></span>
-																							</div>
-																						</div>
-																						<p><span
-																								class="wpcf7-form-control-wrap your-message"><textarea
-																									name="your-message"
-																									cols="40" rows="10"
-																									class="wpcf7-form-control wpcf7-textarea"
-																									aria-invalid="false"
-																									placeholder="Your Message..."></textarea></span>
-																						</p>
-																						<p><input type="submit"
-																								value="submit"
-																								class="wpcf7-form-control has-spinner wpcf7-submit">
-																						</p>
-																					</div>
-																					<div class="wpcf7-response-output"
-																						aria-hidden="true"></div>
-																				</form>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
+												<div class="mb-social-media-wrapper">
+													<a href="https://t.me/T_APE_OFFICIAL"
+														target="_blank" class="social-media-link"><img
+															src="/images/telegram.407ee4f4.svg"></a
+													><a
+														href="https://twitter.com/TAPEMETAVERSE" target="_blank"
+														class="social-media-link"><img
+															src="/images/twitter.a3ea293a.svg"></a>
+													<a
+														href="https://www.youtube.com/channel/UCsx1bsaQcYVFvxGQwQhAsMQ" target="_blank"
+														class="social-media-link"><img
+															src="/images/youtube.svg"></a>
+													<a
+														href="https://www.reddit.com/u/T-APEMETAVERSE" target="_blank"
+														class="social-media-link"><img
+															src="/images/reddit.png"></a>
+													<a
+														href="https://medium.com/@tapemetaverse" target="_blank"
+														class="social-media-link"><img
+															src="/images/medium.png"></a>
 												</div>
 											</div>
 										</div>
@@ -2689,6 +2703,29 @@
 
 		.cool-timeline .timeline-post .timeline-content {
 			background: #ffffff;
+			clip-path: polygon(0% 20px,
+					/* top left */
+					20px 0%,
+					/* top left */
+					calc(100% - 0px) 0%,
+					/* top right */
+					100% 20px,
+					/* top right */
+					100% calc(100% - 20px),
+					/* bottom right */
+					calc(100% - 20px) 100%,
+					/* bottom right */
+					0px 100%,
+					/* bottom left */
+					0 calc(100% - 0px)
+					/* bottom left */
+				);
+			background-color: white;
+			padding: 1px;
+		}
+
+		.cool-timeline .content-details ul li {
+			color: white;
 		}
 
 		.cool-timeline .timeline-year .icon-placeholder span {
