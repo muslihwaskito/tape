@@ -16605,7 +16605,7 @@ aside.edgtf-sidebar .widget_icl_lang_sel_widget .wpml-ls-legacy-dropdown-click {
 }
 
 .edgtf-header-divided .edgtf-page-header .edgtf-vertical-align-containers .edgtf-position-center .edgtf-position-center-inner .edgtf-logo-wrapper>a {
-    padding: 0 80px;
+    /* padding: 0 80px; */
     top: calc(50% - 5px);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
