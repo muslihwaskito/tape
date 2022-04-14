@@ -1383,11 +1383,28 @@
 																	class="vc_sep_holder vc_sep_holder_r"><span
 																		class="vc_sep_line"></span></span>
 															</div>
-															<div class="edgtf-countdown  " id="countdown5758"
+															<div class="edgtf-countdown  " id=""
 																data-year="2022" data-month="4" data-day="4"
 																data-hour="21" data-minute="0" data-month-label="Months"
 																data-day-label="Days" data-hour-label="Hours"
 																data-minute-label="Minutes" data-second-label="Seconds">
+																<span class="countdown-row countdown-show5"><span
+																	class="countdown-section"><span
+																		class="countdown-amount" id="month">00</span><span
+																		class="countdown-period">Months</span></span><span
+																	class="countdown-section"><span
+																		class="countdown-amount" id="days">00</span><span
+																		class="countdown-period">Days</span></span><span
+																	class="countdown-section"><span
+																		class="countdown-amount" id="hours">00</span><span
+																		class="countdown-period">Hours</span></span><span
+																	class="countdown-section"><span
+																		class="countdown-amount" id="minutes">00</span><span
+																		class="countdown-period">Minutes</span></span><span
+																	class="countdown-section"><span
+																		class="countdown-amount" id="seconds">00</span><span
+																		class="countdown-period">Seconds</span></span>
+															</span>
 															</div>
 															<img src="/images/desc-private.jpeg" alt="">
 															<div class="edgtf-eh-item-content edgtf-eh-custom-1274"
@@ -1414,7 +1431,7 @@
 																	class="vc_sep_holder vc_sep_holder_r"><span
 																		class="vc_sep_line"></span></span>
 															</div>
-															<div class="edgtf-countdown is-countdown" id="countdown5758"
+															<div class="edgtf-countdown is-countdown" id=""
 																data-year="2022" data-month="4" data-day="4"
 																data-hour="21" data-minute="0" data-month-label="Months"
 																data-day-label="Days" data-hour-label="Hours"
@@ -1465,7 +1482,7 @@
 																	class="vc_sep_holder vc_sep_holder_r"><span
 																		class="vc_sep_line"></span></span>
 															</div>
-															<div class="edgtf-countdown is-countdown" id="countdown5758"
+															<div class="edgtf-countdown is-countdown" id=""
 																data-year="2022" data-month="4" data-day="4"
 																data-hour="21" data-minute="0" data-month-label="Months"
 																data-day-label="Days" data-hour-label="Hours"
@@ -3182,6 +3199,51 @@
 		if (window.RS_MODULES.checkMinimal !== undefined) {
 			window.RS_MODULES.checkMinimal();
 		};
+
+		(function () {
+            const second = 1000,
+                    minute = second * 60,
+                    hour = minute * 60,
+                    day = hour * 24;
+
+            //I'm adding this section so I don't have to keep updating this pen every year :-)
+            //remove this if you don't need it
+            let today = new Date(),
+                dd = String(today.getDate()).padStart(2, "0"),
+                mm = String(today.getMonth() + 1).padStart(2, "0"),
+                yyyy = today.getFullYear(),
+                nextYear = yyyy + 1,
+                dayMonth = "04/25/",
+                // birthday = dayMonth + yyyy;
+                
+                birthday = "23:59:59 04/19/2022";
+            
+            today = mm + "/" + dd + "/" + yyyy;
+            if (today > birthday) {
+                birthday = dayMonth + nextYear;
+            }
+            //end
+            
+            const countDown = new Date(birthday).getTime(),
+                x = setInterval(function() {    
+
+                    const now = new Date().getTime(),
+                        distance = countDown - now;
+
+                    document.getElementById("days").innerText = Math.floor(distance / (day)),
+                    document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                    document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+                    document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+                    //do something later when date is reached
+                    if (distance < 0) {
+                    document.getElementById("countdown").style.display = "none";
+                    document.getElementById("content").style.display = "block";
+                    clearInterval(x);
+                    }
+                    //seconds
+                }, 0)
+        }());
 	</script>
 </body>
 

@@ -17,7 +17,7 @@
         if ($result) {
             $update = mysqli_query($mysql, "UPDATE users SET is_active=1 WHERE token = '$token'");
             if ($update) {
-                header("Location: https://zipcynft.net/privatesale");
+                header("Location: https://t-ape.io/privatesale");
                 die();
             } else {
                 echo "Confirmation failed! Please try again!";

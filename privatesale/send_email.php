@@ -23,20 +23,20 @@ if (empty($_GET)) {
 
 try {
     $html = file_get_contents('message.php');
-    $html = str_replace("https://zipcynft.net/privatesale/confirm.php?token=", "https://zipcynft.net/privatesale/confirm.php?token=".$_GET['token'], $html);
+    $html = str_replace("https://t-ape.io/privatesale/confirm.php?token=", "https://t-ape.io/privatesale/confirm.php?token=".$_GET['token'], $html);
     //Server settings
     // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     // $mail->SMTPDebug  = 1;
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'sng105.hawkhost.com';                     //Set the SMTP server to send through
+    $mail->Host       = 'ams208.hawkhost.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = '_mainaccount@globalmoney.finance';                     //SMTP username
-    $mail->Password   = 'P076Sxt+NJv4.a';                               //SMTP password
+    $mail->Username   = 'no-reply@t-ape.io';                     //SMTP username
+    $mail->Password   = 'e7-L85w-YzlR4P';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('no-reply@globalmoney.finance','Admin T-Ape');
+    $mail->setFrom('no-reply@t-ape.io','Admin T-Ape');
     $mail->addAddress($_GET['email']);     //Add a recipient
     // $mail->addAddress('ellen@example.com');               //Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
