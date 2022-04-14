@@ -12,7 +12,7 @@ require 'vendor/autoload.php';
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
-if (empty($_GET)) {
+if (empty($_POST)) {
     $response = [
         'status' => 400,
         'message' => ''
@@ -22,8 +22,8 @@ if (empty($_GET)) {
 }
 
 try {
-    $html = file_get_contents('message.php');
-    $html = str_replace("https://t-ape.io/privatesale/confirm.php?token=", "https://t-ape.io/privatesale/confirm.php?token=".$_GET['token'], $html);
+    $html = file_POST_contents('message.php');
+    $html = str_replace("https://t-ape.io/privatesale/confirm.php?token=", "https://t-ape.io/privatesale/confirm.php?token=".$_POST['token'], $html);
     //Server settings
     // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     // $mail->SMTPDebug  = 1;
@@ -37,7 +37,7 @@ try {
 
     //Recipients
     $mail->setFrom('no-reply@t-ape.io','Admin T-Ape');
-    $mail->addAddress($_GET['email']);     //Add a recipient
+    $mail->addAddress($_POST['email']);     //Add a recipient
     // $mail->addAddress('ellen@example.com');               //Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
 
