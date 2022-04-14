@@ -83,66 +83,6 @@
             min-height: 100%;
         }
     </style>
-    <script type="text/javascript">
-        var website_url = 'https://sweepwidget.com';
-        var website_host = 'sweepwidget.com';
-
-        function loadScript(url, callback) {
-
-            var script = document.createElement("script");
-            script.type = "text/javascript";
-            if (script.readyState) { // IE
-                script.onreadystatechange = function () {
-                    if (script.readyState == "loaded" || script.readyState == "complete") {
-                        script.onreadystatechange = null;
-                        callback();
-                    }
-                }
-            } else { //Others
-                script.onload = function () {
-                    callback();
-                }
-            }
-
-            script.src = url;
-            document.getElementsByTagName("head")[0].appendChild(script);
-
-        }
-
-        // If cookies are enabled
-        var cookies_enabled = navigator.cookieEnabled;
-
-        // 3rd party cookies enabled
-        if (cookies_enabled == true) {
-            var cors_jsonp = 1;
-            var ajax_type = 'POST';
-            var ajax_xhrFields = {
-                withCredentials: true
-            };
-            var ajax_dataType = 'text';
-            var ajax_jsonp = false;
-        }
-        // 3rd party cookies disabled
-        else {
-            var cors_jsonp = 2;
-            var ajax_type = 'GET';
-            var ajax_xhrFields = false;
-            var ajax_dataType = 'jsonp';
-            var ajax_jsonp = 'mycallbackselect';
-        }
-
-        var ip_address = '125.166.164.194';
-        var competition_id = '51261';
-
-        function startup_fp(email) {
-            if (typeof Startup !== "undefined") {
-                Startup.Store('competition_id', '51261');
-                Startup.Store('competition_url', 'kiscvmpg');
-                Startup.Store('ip_address', '125.166.164.194');
-                Startup.Store('email', email);
-            }
-        }
-    </script>
 
     <script src="js/telegram-widget.js"></script>
 
@@ -536,49 +476,6 @@
 
     <!-- automatic buy button javascript -->
     <script type="text/javascript" src="/privatesale/app.js"></script>
-
-    <script type="text/javascript">
-        var competition_id = '51261';
-
-        if (cookies_enabled == true) {
-            $('#51261-kiscvmpg').attr('data-cookies-enabled', 'Yes');
-        } else {
-            $('#51261-kiscvmpg').attr('data-cookies-enabled', 'No');
-        }
-
-        var host_url = (window.location != window.parent.location) ? document.referrer : document.location.hostname;
-        var host_name = host_url.replace(/https?:\/\//g, '').split('/')[0];
-        loadScript('https://sweepwidget.com/w/j/w_widget_4.js?v=329677324841', function () {});
-    </script>
-    <script>
-        // *** How can I run a function to wait to do everything after this until this is completed?
-        // Do this on login click before login click AJAX script is called?
-        var IPQ = {
-            Callback: function () {
-                Startup.AfterFailure(function (result) {
-                    alert(
-                        'Please disable your browser\'s fingerprint blocker to enter this contest. Or, try using a different browser.'
-                        );
-                    $('.sw_container').remove();
-                });
-                Startup.Store('competition_id', '51261');
-                Startup.Store('competition_url', 'kiscvmpg');
-                Startup.Store('ip_address', '125.166.164.194');
-                // Startup.Store('widget_request_id', 'cjwb4l625574cc39248ttj1lw151261');
-            }
-        };
-    </script>
-    <script>
-        if (typeof Startup === "undefined") {
-            alert(
-                'Please disable your browser\'s fingerprint blocker to enter this contest. Or, try using a different browser.'
-                );
-            $('.sw_container').remove();
-        }
-        if (typeof Startup !== "undefined") {
-            Startup.Init();
-        }
-    </script>
     <script>
         function register() {
             document.getElementById('sw_login_button').disabled = true;
