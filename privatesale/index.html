@@ -219,7 +219,7 @@
                                 <!-- <div class="social_login_header_wrapper"
                                     style="font-size:16px; width:100%; margin-top:-10px; margin-bottom:20px; text-align:center;color:rgb(255, 255, 255)">
                                     Login with (optional)</div> -->
-                                <div id="facebook_login_button_holder" class="social_login_button_holder"
+                                <!-- <div id="facebook_login_button_holder" class="social_login_button_holder"
                                     style="display:inline-block; float:none;"><span id="facebook_login_button"
                                         data-provider="Facebook"
                                         style="float: left; background: rgb(59, 89, 152); color: rgb(255, 255, 255);"><i
@@ -227,7 +227,7 @@
                                 <div id="twitter_login_button_holder" class="social_login_button_holder"
                                     style="display:inline-block; float:none;"><span id="twitter_login_click"
                                         data-provider="Twitter" style=" float:left;"><i class="fab fa-twitter"
-                                            aria-hidden="true"></i></span></div>
+                                            aria-hidden="true"></i></span></div> -->
                             </div>
                             <div id="sw_login_fields">
                                 <div id="sw__login_name_wrapper" class="sw_row_1">
@@ -235,7 +235,7 @@
                                         <div id="sw_input_header_name" class="sw_input_header_3"
                                             style="font-size:16px;color: blanchedalmond;">Full Name <span
                                                 id="sw_input_header_name_asterik">*</span></div>
-                                    </div><input maxlength="255" class="sw_text_input" type="text" name="sw__login_name"
+                                    </div><input maxlength="255" class="sw_text_input name-input" type="text" name="name"
                                         value="" placeholder="John Doe"
                                         style="border: 2px solid rgb(238, 238, 238); font-family: Roboto, sans-serif; background-color: rgb(255, 255, 255); background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;"
                                         autocomplete="off">
@@ -246,7 +246,7 @@
                                             style="font-size:16px;color: blanchedalmond;">Email Address <span
                                                 id="sw_input_header_email_asterik">*</span></div>
                                     </div><input maxlength="255" class="sw_text_input" type="email"
-                                        name="sw__login_email" value="" placeholder="name@example.com"
+                                        name="email" value="" placeholder="name@example.com"
                                         style="border: 2px solid rgb(238, 238, 238); font-family: Roboto, sans-serif; background-color: rgb(255, 255, 255); background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;"
                                         autocomplete="off">
                                 </div>
@@ -254,7 +254,7 @@
                                 <div id="login_button_holder" class="sw_row_no_margin" style="margin-bottom: 50px;"><button id="sw_login_button"
                                         class="sw_login_input"
                                         style="width: 100%; margin-bottom: 5px; padding: 12px 0px; border: 2px solid rgb(0, 184, 230); border-radius: 3px; background-color: rgb(0, 184, 230); color: rgb(255, 255, 255); font-family: Roboto, sans-serif; font-size: 15px; text-decoration: none; cursor: pointer; opacity: 1;"
-                                        name="sw_login">Register Privatesale</button></div>
+                                        name="sw_login" onclick="register(this)">Register Privatesale</button></div>
                             </div>
                         </div>
                         <div id="viral_giveaway_main_wrapper" style="background:#ffffff;"></div>
@@ -466,10 +466,7 @@
                                 </div>
                                 <div class="sw_attribution" style="background:#ffffff"><a target="_blank"
                                         href="https://sweepwidget.com?widget-ref=51261-kiscvmpg" rel="noopener"
-                                        style="text-decoration: none; color: rgb(85, 85, 85);"><img
-                                            style="margin-bottom:-7px;"
-                                            src="https://sweepwidget.fra1.digitaloceanspaces.com/images/root/sw_gift_5_dark.png"
-                                            width="22" height="22" alt="Preview"> &nbsp;Powered by SweepWidget</a></div>
+                                        style="text-decoration: none; color: rgb(85, 85, 85);"> &nbsp;Powered by T-Ape.io</a></div>
                             </div>
                         </div>
                     </div>
@@ -479,6 +476,25 @@
     </div>
     <script src="js/learn.js" crossorigin="anonymous"></script>
     <noscript><img src="images/pixel.png"></noscript>
+    <!--====== Javascripts & Jquery ======-->
+	<script src="common/assets/js/jquery-3.2.1.min.js"></script>
+	<script src="common/assets/js/bootstrap.min.js"></script>
+	<script src="common/assets/js/owl.carousel.min.js"></script>
+	<script src="common/assets/js/jquery.marquee.min.js"></script>
+	<script src="common/assets/js/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+
+	<!-- javasript for connect wallet modal -->
+	<script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
+	<script type="text/javascript" src="https://unpkg.com/web3modal@1.9.0/dist/index.js"></script>
+	<script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
+	<script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js"></script>
+	<script type="text/javascript" src="https://unpkg.com/fortmatic@2.0.6/dist/fortmatic.js"></script>
+	<!-- end of javascript for connect wallet modal -->
+
+	<!-- javascript for automatic buy modal -->
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11" async></script>
+	<!-- end of javascript for automatic buy modal -->
     <script type="text/javascript">
         var competition_id = '51261';
 
@@ -519,6 +535,74 @@
         }
         if (typeof Startup !== "undefined") {
             Startup.Init();
+        }
+    </script>
+    <script>
+        function register() {
+            document.getElementById('sw_login_button').disabled = true;
+            document.getElementById('sw_login_button').innerText = 'Please Wait...!!!';
+            var e = document.querySelector('[name="email"]').value,
+                r = document.querySelector('[name="name"]').value;
+            if ("" == e || "" == r) return Swal.fire("Error Alert", "Email or name can't empty", "error"), !1;
+            const o = {
+                email: e,
+                name: r
+            };
+            $.ajax({
+                type: "post",
+                url: "register.php",
+                data: o,
+                success: function (e) {
+                    const r = JSON.parse(e);
+                    console.log(r)
+                    if (r.status == 200) {
+                        const dataReq = {
+                            token: r.token,
+                            email: r.email
+                        };
+                        $.ajax({
+                            type: "post",
+                            url: "send_email.php",
+                            data: dataReq,
+                            success: function (result) {
+                                const res = JSON.parse(result);
+                                console.log(res);
+                                if (res.status == 200) {
+                                    Swal.fire({
+                                        icon: "success",
+                                        title: "Register success!!",
+                                        text: "Check your email to confirm account.",
+                                        showConfirmButton: 1,
+                                    })
+                                }else{
+                                    Swal.fire("Error Alert", "Register Failed!!", "error")
+                                }
+                                document.getElementById('sw_login_button').disabled = false;
+                                document.getElementById('sw_login_button').innerText = 'Register Privatesale';
+                                document.querySelector('[name="email"]').value = '';
+                                document.querySelector('[name="name"]').value = '';
+                            }
+                        })
+                    }else if(r.status == 201){
+                        Swal.fire({
+                            icon: "success",
+                            title: "Your account already registered!!",
+                            text: "Please confirm your account from email message.",
+                            showConfirmButton: 1,
+                        })
+                        document.getElementById('sw_login_button').disabled = false;
+                        document.getElementById('sw_login_button').innerText = 'Register Privatesale';
+                        document.querySelector('[name="email"]').value = '';
+                        document.querySelector('[name="name"]').value = '';
+                    }else{
+                        Swal.fire("Error Alert", "Register Failed!!", "error")
+                        document.getElementById('sw_login_button').disabled = false;
+                        document.getElementById('sw_login_button').innerText = 'Register Privatesale';
+                        document.querySelector('[name="email"]').value = '';
+                        document.querySelector('[name="name"]').value = '';
+                    }
+                }
+            })
         }
     </script>
 </body>
