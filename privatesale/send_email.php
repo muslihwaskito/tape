@@ -22,7 +22,7 @@ if (empty($_POST)) {
 }
 
 try {
-    $html = file_POST_contents('message.php');
+    $html = file_get_contents('message.php');
     $html = str_replace("https://t-ape.io/privatesale/confirm.php?token=", "https://t-ape.io/privatesale/confirm.php?token=".$_POST['token'], $html);
     //Server settings
     // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
