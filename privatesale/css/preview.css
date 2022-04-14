@@ -1403,14 +1403,14 @@ div[class^="entry_drop_down_"] {
 
 .sw_title_image_desc_row {
     width: 100%;
-    background: #f8f8f8;
+    /* background: #f8f8f8; */
     margin-bottom: 0;
     float: left
 }
 
 .sw_title_image_desc_row_2 {
     width: 100%;
-    background: #f8f8f8;
+    /* background: #f8f8f8; */
     margin: 0;
     padding: 0;
     float: left
@@ -1914,7 +1914,8 @@ div[class^="entry_drop_down_"] {
     padding: 5px 5% 0 5%;
     text-align: center;
     line-height: 22px;
-    float: left
+    float: left;
+    color: rgb(255, 255, 255);
 }
 
 .sw_desc_bottom_2 {
@@ -3334,7 +3335,7 @@ div[class^="entry_drop_down_"] {
 .sw_login {
     width: 100%;
     padding: 20px 20px 0 20px;
-    background: #fff;
+    /* background: #fff; */
     float: left;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
