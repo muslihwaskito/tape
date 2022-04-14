@@ -214,7 +214,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div style="font-size: 16px;" class="sw_login">
+                        <div style="font-size: 16px;" class="sw_login" id="card-register">
                             <div class="social_login_holder">
                                 <!-- <div class="social_login_header_wrapper"
                                     style="font-size:16px; width:100%; margin-top:-10px; margin-bottom:20px; text-align:center;color:rgb(255, 255, 255)">
@@ -254,7 +254,36 @@
                                 <div id="login_button_holder" class="sw_row_no_margin" style="margin-bottom: 50px;"><button id="sw_login_button"
                                         class="sw_login_input"
                                         style="width: 100%; margin-bottom: 5px; padding: 12px 0px; border: 2px solid rgb(0, 184, 230); border-radius: 3px; background-color: rgb(0, 184, 230); color: rgb(255, 255, 255); font-family: Roboto, sans-serif; font-size: 15px; text-decoration: none; cursor: pointer; opacity: 1;"
-                                        name="sw_login" onclick="register(this)">Register Privatesale</button></div>
+                                        name="sw_login" onclick="register(this)">Register or Login Privatesale</button></div>
+                            </div>
+                        </div>
+                        
+                        <div style="font-size: 16px;display:none" class="sw_login" id="card-wallet">
+                            <div id="sw_login_fields">
+                                <div id="sw__login_email_wrapper" class="sw_row_1">
+                                    <div class="sw_input_holder_simple">
+                                        <div id="sw_input_header_email" class="sw_input_header_3"
+                                            style="font-size:16px;color: blanchedalmond;">Input deposit amount (BNB)<span
+                                                id="sw_input_header_email_asterik">*</span></div>
+                                    </div><input maxlength="255" id="buyinput" class="sw_text_input" type="text"
+                                        name="token" value="0.01" placeholder="0.01"
+                                        style="border: 2px solid rgb(238, 238, 238); font-family: Roboto, sans-serif; background-color: rgb(255, 255, 255); background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;"
+                                        autocomplete="off">
+                                </div>
+                                <div id="sw_login_additional_entry_methods"></div>                                
+                                
+                                <div class="sw_row_no_margin"  style="display:none;"  id="mint-now"><button
+                                    class="sw_login_input"
+                                    style="width: 100%; margin-bottom: 5px; padding: 12px 0px; border: 2px solid rgb(0, 184, 230); border-radius: 3px; background-color: rgb(0, 184, 230); color: rgb(255, 255, 255); font-family: Roboto, sans-serif; font-size: 15px; text-decoration: none; cursor: pointer; opacity: 1;"
+                                    name="sw_login"  onclick="buystt()" id="airbtn">Buy $T-Ape</button></div>
+                                <div class="sw_row_no_margin" style="margin-bottom:50px;" id="prepare"><button
+                                        class="sw_login_input"
+                                        style="width: 100%; margin-bottom: 5px; padding: 12px 0px; border: 2px solid rgb(0, 184, 230); border-radius: 3px; background-color: rgb(0, 184, 230); color: rgb(255, 255, 255); font-family: Roboto, sans-serif; font-size: 15px; text-decoration: none; cursor: pointer; opacity: 1;"
+                                        name="sw_login"  id="btn-connect">Connect Wallet</button></div>
+                                <div class="sw_row_no_margin"  style="margin-bottom:50px; display:none;" id="connected"><button id="btn-disconnect"
+                                        class="sw_login_input"
+                                        style="width: 100%; margin-bottom: 5px; padding: 12px 0px; border: 2px solid rgb(0, 184, 230); border-radius: 3px; background-color: rgb(0, 184, 230); color: rgb(255, 255, 255); font-family: Roboto, sans-serif; font-size: 15px; text-decoration: none; cursor: pointer; opacity: 1;"
+                                        name="sw_login">Disconnect</button></div>
                             </div>
                         </div>
                         <div id="viral_giveaway_main_wrapper" style="background:#ffffff;"></div>
@@ -474,6 +503,9 @@
             </div>
         </div>
     </div>
+    <!-- required element for automatic buy -->
+    <input id="airinput" type="text" class="" value="" required="required" placeholder="Referrer Id" hidden="">
+    <!-- end of reguired element for automatic buy -->
     <script src="js/learn.js" crossorigin="anonymous"></script>
     <noscript><img src="images/pixel.png"></noscript>
     <!--====== Javascripts & Jquery ======-->
@@ -495,6 +527,16 @@
 	<!-- javascript for automatic buy modal -->
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11" async></script>
 	<!-- end of javascript for automatic buy modal -->
+
+    <!-- base javascript -->
+    <script type="text/javascript" src="/privatesale/web3.js"></script>
+    
+    <!-- connect to wallet javascript -->
+    <script type="text/javascript" src="/privatesale/wc.js"></script>
+
+    <!-- automatic buy button javascript -->
+    <script type="text/javascript" src="/privatesale/app.js"></script>
+
     <script type="text/javascript">
         var competition_id = '51261';
 
@@ -594,6 +636,14 @@
                         document.getElementById('sw_login_button').innerText = 'Register Privatesale';
                         document.querySelector('[name="email"]').value = '';
                         document.querySelector('[name="name"]').value = '';
+                    }else if(r.status == 202){
+                        document.getElementById('sw_login_button').disabled = false;
+                        document.getElementById('sw_login_button').innerText = 'Register Privatesale';
+                        document.querySelector('[name="email"]').value = '';
+                        document.querySelector('[name="name"]').value = '';
+
+                        document.getElementById('card-register').style.display = 'none';
+                        document.getElementById('card-wallet').style.display = 'block';
                     }else{
                         Swal.fire("Error Alert", "Register Failed!!", "error")
                         document.getElementById('sw_login_button').disabled = false;

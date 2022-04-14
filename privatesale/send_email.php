@@ -12,7 +12,7 @@ require 'vendor/autoload.php';
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
-if (empty($_POST)) {
+if (empty($_GET)) {
     $response = [
         'status' => 400,
         'message' => ''
@@ -23,7 +23,7 @@ if (empty($_POST)) {
 
 try {
     $html = file_get_contents('message.php');
-    $html = str_replace("https://zipcynft.net/privatesale/confirm.php?token=", "https://zipcynft.net/privatesale/confirm.php?token=".$_POST['token'], $html);
+    $html = str_replace("https://zipcynft.net/privatesale/confirm.php?token=", "https://zipcynft.net/privatesale/confirm.php?token=".$_GET['token'], $html);
     //Server settings
     // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     // $mail->SMTPDebug  = 1;
@@ -36,8 +36,8 @@ try {
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('no-reply@globalmoney.finance');
-    $mail->addAddress($_POST['email']);     //Add a recipient
+    $mail->setFrom('no-reply@globalmoney.finance','Admin T-Ape');
+    $mail->addAddress($_GET['email']);     //Add a recipient
     // $mail->addAddress('ellen@example.com');               //Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
 

@@ -22,14 +22,14 @@
             
             if ($result['is_active'] == '0') {
                 $response = [
-                    'status' => 200,
+                    'status' => 201,
                     'message' => 'email '.$email.' is exist !',
                     'token' => $token,
                     'email' => $email
                 ];
             } else {
                 $response = [
-                    'status' => 201,
+                    'status' => 202,
                     'message' => 'email '.$email.' is exist !'
                 ];
             }
