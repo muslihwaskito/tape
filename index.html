@@ -1346,10 +1346,10 @@
 															<img src="/images/desc-private.jpeg" alt="">
 															<div class="edgtf-eh-item-content edgtf-eh-custom-1274"
 																style="text-align: center; margin-top: 20px;">
-																<a itemprop="url" href="/privatesale" target="_blank"
-																	class="edgtf-btn edgtf-btn-medium edgtf-btn-solid edgtf-btn-glow">
+																<button itemprop="url" href="#" target="_blank"
+																	class="edgtf-btn edgtf-btn-medium edgtf-btn-solid edgtf-btn-glow" style="cursor:not-allowed; background-color: darkgray;">
 																	<span class="edgtf-btn-text">REGISTER PRIVATESALE</span>
-																</a>
+																</button>
 															</div>
 														</div>
 													</div>
@@ -3138,7 +3138,7 @@
 		};
 
 		(function () {
-			var countDownDate = new Date("Apr 19, 2022 23:59:59").getTime();
+			var countDownDate = new Date("Apr 19, 2022 23:19:59").getTime();
     
 			// Update the count down every 1 second
 			var x = setInterval(function() {
@@ -3164,6 +3164,7 @@
 			// If the count down is over, write some text 
 			if (distance < 0) {
 			clearInterval(x);
+				document.getElementById("month").innerHTML = '--';
 				document.getElementById("days").innerHTML = '--';
 				document.getElementById("hours").innerHTML = '--';
 				document.getElementById("minutes").innerHTML = '--';
